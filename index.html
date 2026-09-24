@@ -12,53 +12,71 @@
         <h1 class="text-center text-primary">CFCC Cyber Awareness Month</h1>
         <div id="side-nav" class="position-fixed top-0 start-0 p-3 mt-3">
             <nav class="d-flex flex-column text-start">
-                <a href="#Use Strong Passwords" class="my-1">Use Strong Passwords</a>
-                <a href="#Multi-Factor Authentication 2?" class="my-1">Multi-Factor Authentication</a>
-                <a href="#Software Updates" class="my-1">Software Updates</a>
-                <a href="#Phishing Awareness" class="my-1">Phishing Awareness</a>
-                <a href="#Multi-Factor Authentication" class="my-1">Multi-Factor Authentication</a>
+                <a href="#Use Strong Passwords" class="btn btn-outline-primary my-1">Use Strong Passwords</a>              
+                <a href="#Software Updates" class="btn btn-outline-primary my-1">Software Updates</a>
+                <a href="#Phishing Awareness" class="btn btn-outline-primary my-1">Phishing Awareness</a>
+                <a href="#Multi-Factor Authentication" class="btn btn-outline-primary my-1">Multi-Factor Authentication</a>
             </nav>
         </div>
 
-        <main class="container-fluid bg-light">
+        <main class="container-fluid bg-light accordion">
 
-            <section id="Use Strong Passwords" class="row justify-content-center ">
+            <section id="Use Strong Passwords" class="card row justify-content-center custom-card">
                 <!-- Section developed by: [Brandon] -->
-                <h2>Use Strong Passwords</h2>
+                 <div class="card-header">
+                    <h2><button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#use-strong-passwords">Use Strong Passwords</button></h2>
+                </div>
+                <div class="card-body collapse show" id="use-strong-passwords">
+                    <p>
+                        Passwords are the first line of defense against unauthorized access to your accounts. 
+                    </p>
+                </div>
 
             </section>  
 
-            <section id="Multi-Factor Authentication 2?" class="row justify-content-center ">
-                <!-- Section developed by: [Your Name] -->
-                <h2>Multi-Factor Authentication</h2>
-            </section>    
             
-            <section id="Software Updates" class="row justify-content-center ">
+            
+            <section id="Software Updates" class="card row justify-content-center custom-card">
                 <!-- Section developed by: [Nathan] -->
-                <h2>Software Updates</h2>
-                <p>
+                <div class="card-header">
+                    <h2><button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#software-updates">Software Updates</button></h2>
+                </div>
+                <div class="card-body collapse" id="software-updates">
+                    <p>
                     Everyone loves the option to be reminded in three days to update their software. So often we get pop ups asking us to update our apps, firmware, and operating systems. It's something that we often
                     look over and tell ourselves that we will do it eventually. Studies show that 80% of data breaches are caused by unpatched vulnerabilities. These unpatched vulnerabilities are what the updates patch.
                     Ignoring software updates can leave your systems vulnerable to attacks that exploit known weaknesses. It's important to make it a habit to update your software as soon as updates are available. More often than not,
                     there is an option to automate updates, by doing this, we can completely remove human error from the equation and forget about it. Having everything updated can help secure you and your data from potential threats.
-                </p>
+                    </p>
+                </div>
             </section>
 
-            <section id="Phishing Awareness" class="row justify-content-center ">
+            <section id="Phishing Awareness" class="card row justify-content-center custom-card">
                 <!-- Section developed by: [Hannah] -->
-                <h2>Phishing Awareness</h2>
+                <div class="card-header">
+                    <h2><button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#phishing-awareness">Phishing Awareness</button></h2>
+                </div>
+                <div class="card-body collapse" id="phishing-awareness">
+                    <p>
+                        Phishing is a type of cyber attack where attackers ...
+                    </p>
+                </div>
             </section>
 
-            <section id="Multi-Factor Authentication" class="row justify-content-center ">
+            <section id="Multi-Factor Authentication" class="card row justify-content-center custom-card">
                 <!-- Section developed by: [Nathan] -->
-                <h2>Multi-Factor Authentication</h2>
-                <p>
-                    Multi-Factor Authentication is a way of adding extra layers of security to your accounts. In most cases, it requires two different ways of you identifying yourself to gain access.
-                    Some examples of this are obvious, such as entering a password and then receiving a text on your phone. One of the earliest examples, and one we still do everyday, is needing not only your
-                    card to make a purchase, but also needing to enter a PIN. Studies show that utilizing multi-factor authentication can significantly reduce the risk of unauthorized access to your accounts, blocking around
-                    99% of unauthorized access attempts. This is why it is so important to enable MFA when given the option. The few extra seconds of typing in a code sent to your phone, can save you from losing access to
-                    to your personal information, financial assets, and overall online security.
-                </p>
+                <div class="card-header">
+                    <h2><button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#multi-factor-authentication">Multi-Factor Authentication</button></h2>
+                </div>
+                <div class="card-body collapse" id="multi-factor-authentication">
+                    <p>
+                        Multi-Factor Authentication is a way of adding extra layers of security to your accounts. In most cases, it requires two different ways of you identifying yourself to gain access.
+                        Some examples of this are obvious, such as entering a password and then receiving a text on your phone. One of the earliest examples, and one we still do everyday, is needing not only your
+                        credit card to make a purchase, but also needing to enter a PIN. Studies show that utilizing multi-factor authentication can significantly reduce the risk of unauthorized access to your accounts, blocking around
+                        99% of unauthorized access attempts. This is why it is so important to enable MFA when given the option. The few extra seconds of typing in a code sent to your phone, can save you from losing access to
+                        your personal information, financial assets, and overall online security.
+                    </p>
+                </div>
             </section>
         </main>
 
