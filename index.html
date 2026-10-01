@@ -10,34 +10,38 @@
   <body>
     <div class="container">   
         <h1 class="text-center text-primary display-2">CFCC Cyber Awareness</h1>
-        <div id="side-nav" class="position-fixed top-0 start-0 p-3 mt-3">
-            <nav class="d-flex flex-column text-start">
-                <a href="#Use Strong Passwords" class="btn btn-outline-primary my-1">Use Strong Passwords</a>              
-                <a href="#Software Updates" class="btn btn-outline-primary my-1">Software Updates</a>
-                <a href="#Phishing Awareness" class="btn btn-outline-primary my-1">Phishing Awareness</a>
-                <a href="#Multi-Factor Authentication" class="btn btn-outline-primary my-1">Multi-Factor Authentication</a>
-            </nav>
+
+        <div id="hamburger-menu" class="position-fixed top-0 start-0 p-3 mt-3">
+            <button class="hamburger-btn" data-bs-toggle="collapse" data-bs-target="#nav-links">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <div id="nav-links" class="collapse mt-2">
+                <nav class="d-flex flex-column text-start">
+                    <a href="#Use Strong Passwords" class="btn btn-outline-primary my-1">Use Strong Passwords</a>
+                    <a href="#Software Updates" class="btn btn-outline-primary my-1">Software Updates</a>
+                    <a href="#Phishing Awareness" class="btn btn-outline-primary my-1">Phishing Awareness</a>
+                    <a href="#Multi-Factor Authentication" class="btn btn-outline-primary my-1">Multi-Factor Authentication</a>
+                </nav>
+            </div>
         </div>
 
         <main class="container-fluid bg-light accordion">
 
             <section id="Use Strong Passwords" class="card row justify-content-center custom-card">
-                <!-- Section developed by: [Brandon] -->
-                 <div class="card-header text-center">
+                <div class="card-header text-center">
                     <button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#use-strong-passwords"><h2 class="display-6 text-center">Use Strong Passwords</h2></button>
                 </div>
-                <div class="card-body collapse show" id="use-strong-passwords">
+                <div class="card-body collapse" id="use-strong-passwords">
                     <p>
                         Passwords are the first line of defense against unauthorized access to your accounts. 
                     </p>
                 </div>
-
             </section>  
 
-            
-            
             <section id="Software Updates" class="card row justify-content-center custom-card">
-                <!-- Section developed by: [Nathan] -->
                 <div class="card-header text-center">
                     <button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#software-updates"><h2 class="display-6 text-center">Software Updates</h2></button>
                 </div>
@@ -52,7 +56,6 @@
             </section>
 
             <section id="Phishing Awareness" class="card row justify-content-center custom-card">
-                <!-- Section developed by: [Hannah] -->
                 <div class="card-header text-center">
                     <button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#phishing-awareness"><h2 class="display-6 text-center">Phishing Awareness</h2></button>
                 </div>
@@ -64,7 +67,6 @@
             </section>
 
             <section id="Multi-Factor Authentication" class="card row justify-content-center custom-card">
-                <!-- Section developed by: [Nathan] -->
                 <div class="card-header text-center">
                     <button class="btn text-primary" data-bs-toggle="collapse" data-bs-target="#multi-factor-authentication"><h2 class="display-6 text-center">Multi-Factor Authentication</h2></button>
                 </div>
