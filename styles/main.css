@@ -47,6 +47,10 @@ section h2 {
   font-weight: 600;
 }
 
+h2:hover {
+  color: #f5f7f7;
+}
+
 section p {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -80,3 +84,24 @@ body {
     background-position: center;
 }
 
+@media (max-width: 1260px) {
+  #side-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  main.container-fluid {
+    padding: 20px;
+  }
+
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  section p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}
